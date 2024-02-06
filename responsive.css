@@ -1,0 +1,9 @@
+@media screen and (max-width:576px){
+    .navbar, .nav-container, .nav-items-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        gap: 20px;
+} 
+}

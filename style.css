@@ -12,7 +12,7 @@ body{
 /* Nav styles */
 .navbar{
 /* max-width: 1250px; */
-border: 2px solid blue;
+/* border: 2px solid blue; */
 margin: 0 auto;
 display: flex;
 }
@@ -35,10 +35,42 @@ align-items: center;
 }
 .nav-items-container a{
     text-decoration: none;
-font-size: 1.25rem;
+font-size: 1rem;
 color: black;
 font-weight: 400;
 margin-right: 2rem;
 }
 
 /* nav ended */
+/* banner section started */
+.banner-container{
+    max-width: 1350px;
+    min-height: 500px;
+    border: 2px solid red;
+    background-image: url('../batch-hero-travel/B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png') ;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(45deg rgb(41, 40, 40));
+    border-radius: 20px;
+    margin: 0 auto;
+    align-items: center;
+}
+.banner-text{
+   /* display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;*/
+   padding-top: 50px;
+}
+.banner-text h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+color: white;
+}
+.banner-text p{
+text-align: center;
+color: white;
+}
