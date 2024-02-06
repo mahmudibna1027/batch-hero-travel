@@ -132,7 +132,8 @@ color: white;
     max-width: 1350px;
     display: flex;
     margin-top: 70px;
-    padding: 20px;
+    margin-bottom: 70px;
+    /* padding: 20px; */
 gap: 20px;
 }
 .tours-text{
@@ -152,7 +153,7 @@ color: rgb(73, 73, 73);
     margin-bottom: 20px;   
 }
 .tour-images{
-    /* width: 100%; */
+    width: 100%;
 }
 .tour-images:hover{
     border: 2px solid rgb(3, 125, 255);
@@ -167,4 +168,17 @@ color: rgb(73, 73, 73);
     font-size: 1.25rem;
     color: white;
     background-color: orangered;
+}
+.btn-primary:hover{
+    border: 2px solid rgb(3, 125, 255);
+}
+/* tour section ended */
+
+/* destinaton section starts */
+.destinaton-section{
+    max-width: 1350px;
+    border: 2px solid red;
+}
+.destination-text{
+    text-align: center;
 }
