@@ -1,10 +1,12 @@
 @media screen and (max-width:576px){
-    .navbar, .nav-container, .nav-items-container, .banner-input{
+    .navbar, .nav-container, .nav-items-container, .banner-input, .our-popular-tours{
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 15px;
         gap: 20px;
 } 
-
+.tour-images{
+    padding:30px ;
+}
 }
