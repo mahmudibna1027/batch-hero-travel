@@ -46,7 +46,6 @@ margin-right: 2rem;
 .banner-container{
     max-width: 1350px;
     min-height: 500px;
-    border: 2px solid red;
     background-image: url('../batch-hero-travel/B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png') ;
     
     background-repeat: no-repeat;
@@ -63,14 +62,63 @@ margin-right: 2rem;
    justify-content: center;
    align-items: center;*/
    padding-top: 50px;
+
 }
 .banner-text h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 800;
 color: white;
 }
 .banner-text p{
 text-align: center;
 color: white;
+}
+
+.banner-input{
+    /* min-height: 90px; */
+    background-color:#e6e9eb7e ;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    gap: 20px;
+}
+.where-go input{
+    width: 190px;
+    height: 45px;
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+    font-size: 1.25rem; }
+.when input{
+    width: 190px;
+    height: 45px;
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+.select input{
+    width: 190px;
+    height: 45px;
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+.find input{
+    width: 190px;
+    height: 45px;
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: orangered;
+    
 }
