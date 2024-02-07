@@ -468,17 +468,17 @@ justify-content: start;
   background-color: rgba(255, 255, 255, 0.773);
   padding: 20px ;
   position: relative;
-  bottom: 425px;
+  bottom: 410px;
   left: 250px;
 }
 .second-banner-box{
   width: 500px;
-  height: 300px;
+  height: 300px; 
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.773);
   padding: 20px ;
   position: relative;
-  bottom: 425px;
+  bottom: 410px;
   right: 250px;
 }
 
