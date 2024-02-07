@@ -72,7 +72,7 @@ margin-right: 2rem;
 }
 .banner-text h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
 color: white;
 }
@@ -188,7 +188,8 @@ color: rgb(73, 73, 73);
     margin-right: 200px; 
 }
 .destination-text h2{
-    font-size: 60px;
+    font-size: 50px;
+    padding: 0 0 30px 0;
     font-weight: 900;
 }
 .destination-text p{
@@ -370,8 +371,70 @@ color: rgb(73, 73, 73);
     grid-column: 6/span 6;
     grid-row: 3/span 1;
 }
+/* choose section */
+.choose-section{
+  max-width: 1350px;
+}
 
-
+.choose-text{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 0 200px 0 200px;
+}
+.choose-header{
+  font-size: 50px;
+  padding: 0 0 30px 0;
+  font-weight: 800;
+  text-align: center;
+}
+.choose-p{
+  width: 600px;
+  font-size: 1rem;
+  color: rgb(50, 50, 50);
+  /* border: 2px solid rgb(18, 17, 17); */
+  /* padding: 20px 400px 0 400px; */
+}
+.choose-card-container{
+display: grid;
+grid-template-columns: repeat(12,1fr);
+gap: 20px;
+}
+.cards-one{
+ grid-column: 1/span 6; 
+ grid-row: 1/span 1;
+padding: 30px;
+background-color: rgba(246, 239, 228, 0.195);
+border: 1px solid rgb(246, 204, 152);
+border-radius: 10px;
+}
+.cards-two{
+  grid-column: 7/span 6; 
+ grid-row: 1/span 1;
+padding: 30px;
+background-color: rgba(207, 234, 237, 0.137);
+border: 1px solid rgb(152, 234, 246);
+border-radius: 10px;
+}
+.cards-three{
+  grid-column: 4/span 6; 
+ grid-row: 2/span 1;
+padding: 30px;
+background-color: rgba(228, 210, 224, 0.152);
+border: 1px solid pink;
+border-radius: 10px;
+}
+.cards-title{
+padding: 20px 0 ;
+font-size: 30px;
+font-weight: 600;
+}
+.choose-img{
+  margin-right: 550px;
+align-items: start;
+justify-content: start;
+}
+/* choose section */
 
 
 
