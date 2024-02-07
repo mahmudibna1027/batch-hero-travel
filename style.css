@@ -514,6 +514,7 @@ margin-bottom: 20px;
 /* newsletter-section */
 .news{
   max-width: 1350px;
+  margin-bottom: 70px;
 }
 .newsletter-section{
 display: flex;
@@ -566,7 +567,24 @@ gap: 20px;
 bottom: 30%;
 left: 50%;
 }
-
+/*news ended */
+/* footer started */
+footer{
+  background-color: rgb(219, 214, 214);
+  min-height: 400px;
+}
+.foot{
+text-align: center;
+padding: 70px;
+}
+.foot-icon{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  padding-right:30px ;
+}
+/* the end */
 
 
 
