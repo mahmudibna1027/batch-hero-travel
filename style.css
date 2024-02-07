@@ -9,7 +9,7 @@ body{
     margin: auto;
 }
 header{
-    max-width: 1600pxpx;
+    max-width: 1600px;
 }
 
 /* Nav styles */
@@ -180,11 +180,12 @@ color: rgb(73, 73, 73);
 /* destination section starts */
 .destination-section{
     max-width: 1350px;
-    border: 2px solid red;
 }
 .destination-text{
     text-align: center; 
-    margin-bottom: 60px;  
+    margin-bottom: 60px; 
+    margin-left: 200px;
+    margin-right: 200px; 
 }
 .destination-text h2{
     font-size: 60px;
@@ -203,6 +204,7 @@ color: rgb(73, 73, 73);
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
   }
 
   .centered-text {
@@ -222,6 +224,7 @@ color: rgb(73, 73, 73);
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
   }
 
   .centered-text-two {
@@ -241,6 +244,7 @@ color: rgb(73, 73, 73);
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
   }
 
   .centered-text-three {
@@ -260,6 +264,7 @@ color: rgb(73, 73, 73);
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
   }
 
   .centered-text-four {
@@ -279,6 +284,7 @@ color: rgb(73, 73, 73);
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
   }
 
   .centered-text-five {
@@ -298,6 +304,7 @@ color: rgb(73, 73, 73);
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
   }
 
   .centered-text-six {
@@ -317,6 +324,7 @@ color: rgb(73, 73, 73);
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
   }
 
   .centered-text-sev {
